@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+
+}
+body
+{
+    font-family: 'Quicksand', serif;
+    background-color: #cfefff;
+
+}
+h1
+{
+    text-align: center;
+    color: #E9CBFF;
+}
+li
+{
+    list-style: none;
+
+}
+
+nav
+{
+    margin-left: 70%;
+    position: fixed;
+   
+}
+a
+{
+    text-decoration: none;
+        color: #E9CBFF;
+
+
+
+}
+#navi nav ul li
+{
+    list-style-type: none;
+    display: inline;
+    
+   
+
+}
+nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li
+{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+    margin-right: 50px;
+}
+
+
+p
+{
+    text-align: center;
+    color: #E9CBFF;
+}
+
+#navi
+{
+    width: 100%;
+
+}
+
+#pizzapix
+{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; 
+    height: 100px;
+    
+}
+#gallery
+{
+    margin-left: 7%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+.gal
+{
+
+    width: 400px;
+    height: 350px;
+    max-width: 100%;
+}
+.card_gal
+{
+    text-align: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    font-size: 1rem;
+    color: white;
+}
+.card
+{
+    width: 400px;
+    height: 350px;
+    background: white;
+    position: relative;
+    transition: all .2s linear;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    
+
+}
+.contain
+{
+    width: 400px;
+    height: 350px;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+    perspective: 400px;
+
+}
+
+.contain:hover > .card
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+
+}
+
+.front,
+.back
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+
+
+}
+
+.back
+{
+    background-color: #fedaff;
+    text-align: center;
+    padding-top: 40%;
+    justify-content: center;
+    transform: rotateY(180deg) ;
+    display: flex;
+
+
+
+
+}
+
+#footer
+{
+    margin-top: 10vh;
+    height: 10rem;
+    background-color: #a6c1ee;
+}
+#footer_para
+{
+    text-align: right;
+    font-size: 10vh;
+}
